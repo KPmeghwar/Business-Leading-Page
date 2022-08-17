@@ -1,0 +1,342 @@
+/*W3hubs.com - Download Free Responsive Website Layout Templates designed on HTML5 CSS3,Bootstrap which are 100% Mobile friendly. w3Hubs all Layouts are responsive cross browser supported, best quality world class designs.*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section h1 {
+  padding: 60px 0px 0px;
+  text-align: center;
+}
+
+hr {
+  color: #000;
+  width: 7%;
+  text-align: center;
+}
+
+.font10 {
+  font-size: 10px !important;
+  text-align: center !important;
+  padding-bottom: 25px;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+header .fas {
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+header .fab {
+  padding-right: 10px !important;
+  cursor: pointer;
+}
+
+header .fas:hover,
+header .fab:hover {
+  color: #ddd;
+}
+
+nav {
+  padding: 0;
+}
+
+.nav-item {
+  padding-right: 40px;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ddd;
+}
+
+.bg-custom,
+.btn-custom {
+  background: #7D3C98;
+}
+
+.btn-custom {
+  color: #fff;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background: #9661ad;
+}
+
+#home {
+  background: url(4.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.layer {
+  background-color: rgba(52, 73, 94, 0.7);
+  height: 600px;
+}
+
+#home .centerall {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  color: #fff;
+}
+
+#aboutus .row:nth-child(1) {
+  padding-top: 30px;
+}
+
+#aboutus img {
+  height: 400px;
+}
+
+#aboutus h4 {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #8E44AD;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+#aboutus h5 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  color: #8E44AD;
+  line-height: 2;
+  font-weight: 500;
+}
+
+#aboutus p {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #000;
+}
+
+#service p.text-center {
+  font-size: 12px;
+  padding-bottom: 25px;
+}
+
+#service .fas,
+#service .fab {
+  font-size: 45px;
+  color: #8E44AD;
+  padding: 15px;
+}
+
+#service h3 {
+  padding-top: 15px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+#service p {
+  text-align: left;
+  font-size: 14px;
+}
+
+#team image {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+#team .icons {
+  position: relative;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  top: 60%;
+  left: 0%;
+}
+
+#team .icons .fab {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#team .icons .fab:hover {
+  color: #8E44AD
+}
+
+#team .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8e44ad5e;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+#team .col-md-4:hover .content {
+  height: 100%;
+}
+
+#team .content p {
+  color: #fff;
+  font-size: 34px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#testimonial .bg-customcolor {
+  background: #8E44AD;
+  color: #fff;
+  height: 100%;
+}
+
+#testimonial h4 {
+  font-size: 38px;
+  font-weight: 700;
+  padding-top: 80px;
+}
+
+#contactus p {
+  font-size: 10px;
+}
+
+#contactus input {
+  background: #ddd;
+  height: 45px;
+}
+
+#contactus textarea {
+  background: #ddd;
+}
+
+#contactus .form-control:focus {
+  border-color: #8E44AD;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#contactus input[type=number]::-webkit-inner-spin-button,
+#contactus input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+footer {
+  background: #8E44AD;
+  margin-top: 30px;
+}
+
+footer p {
+  padding-top: 15px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+footer .fab {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+footer .fab:hover {
+  color: #ddd;
+}
+
+@media(max-width: 992px) {
+  #testimonial h4 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  #testimonial p {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 768px) {
+  .font10 {
+    padding: 0;
+    margin: 0;
+  }
+  section h1 {
+    padding: 30px 0px 0px;
+  }
+  nav .float-right {
+    float: none !important;
+    text-align: center;
+  }
+  .nav-item {
+    padding-right: 0;
+  }
+  #aboutus img {
+    height: auto;
+  }
+  #aboutus h4,
+  #aboutus h5,
+  #aboutus p,
+  #service h3,
+  #service p,
+  footer .text-left,
+  footer .text-right,
+  header .text-right,
+  .mobile-center {
+    text-align: center !important;
+  }
+  #service .fas,
+  #service .fab {
+    display: block;
+    text-align: center;
+  }
+  #aboutus h4,
+  iframe {
+    padding-top: 20px;
+  }
+  #team .col-md-4 {
+    margin-top: 40px;
+  }
+  #service h3,
+  header .fab,
+  .mobile-text {
+    padding-top: 10px;
+  }
+}
